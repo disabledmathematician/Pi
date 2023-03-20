@@ -1,3 +1,11 @@
+""" Pi is approximately: 3.141592153589724
+Charles Thomas Wallace Truscott
+
+[Program finished]
+
+"""
+
+
 def PiCharles():
 	odd_numbers = list(2 * number + 1 for number in range(1, 2000000, 1))
 	Pi = 1 # Until the summands are completed
